@@ -10,7 +10,7 @@ install() {
   local install_type=$1
   [ "$install_type" != "version" ] && echo "intall type, $install_type, is not supported" && exit 1
 
-  local version=$2
+  local version=$2-vp
   local install_path=$3
 
   local bin_install_path="$install_path/bin"
