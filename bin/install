@@ -23,7 +23,7 @@ install() {
   ([ "aarch64" = "$(uname -m)" ] || [ "arm64" = "$(uname -m)" ]) && arch="arm64"
 
   local download_url
-  download_url="https://github.com/Praqma/helmsman/releases/download/v${version}/helmsman_${version}_${platform}_${arch}.tar.gz"
+  download_url="https://github.com/Switch-TV/helmsman/releases/download/v${version}/helmsman_${version}_${platform}_${arch}.tar.gz"
 
   mkdir -p "${bin_install_path}"
 
